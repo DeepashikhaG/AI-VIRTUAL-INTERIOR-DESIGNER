@@ -107,4 +107,4 @@ if "generated" in st.session_state:
             st.image(st.session_state["generated"], caption=f"{st.session_state['style']} {st.session_state['room_type']} ({st.session_state['simplicity']}) Inspiration", use_container_width=True)
         st.download_button(label="Download Inspiration", data=st.session_state["generated"], file_name=f"{st.session_state['style']}_{st.session_state['room_type']}_{st.session_state['simplicity']}_inspiration.jpg", mime="image/jpeg")
 
-st.markdown("<footer style='text-align: center; margin-top: 20px;'>Made by [Gavidi Deepashikha] - April 2025</footer>", unsafe_allow_html=True)
+st.markdown("<footer style='text-align: center; margin-top: 20px;'>Made by [Gavidi Deepashikha , Payam Manasa] - April 2025</footer>", unsafe_allow_html=True)
