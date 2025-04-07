@@ -6,7 +6,7 @@ import time
 from PIL import Image
 
 API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-1"
-API_TOKEN = "your-hugging-face-api-key-here"
+API_TOKEN = st.secrets["API_TOKEN"]
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
 st.markdown('<h1 style="font-size: 5.5em; text-align: center;">AI Interior Design Inspiration</h1>', unsafe_allow_html=True)
